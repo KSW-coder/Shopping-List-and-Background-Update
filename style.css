@@ -1,0 +1,52 @@
+/* Background Color Styling */
+body{
+    background: linear-gradient(to right, cyan, yellow);
+}
+.container2{
+    margin-top: 20px;
+    font-size: 1rem;    
+}
+#colorText{
+    color: #000000;
+    text-align: center;
+
+}
+#bgcolor1, #bgcolor2{
+       position: relative; left: 46%; transform: translateX(-50%);
+}
+
+
+/* Text Decoration assigned to Delete Button */
+.finishedTask{
+    text-decoration: line-through;
+}
+
+/* Style for Shopping List and Buttons */
+.container{
+    display: flex;  
+    justify-content: center;
+
+}
+
+
+li>button{
+    position: absolute; left: 46%; transform: translateX(-50%);
+}
+
+li{
+    list-style-type: square;
+}
+
+
+/* Style for Footer */
+footer{
+    position: fixed;
+    left: 0;
+    font-size: 1rem;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(234, 23, 209);
+    color: white;
+    text-align: center;
+
+}
